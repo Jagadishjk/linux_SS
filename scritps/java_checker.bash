@@ -24,6 +24,7 @@ if check_java_17_installed; then
   echo "Java 17 is already installed."
 else
   echo "Java 17 is not installed. Installing Java 17..."
+  install_java_17
 fi
 #verifying installation
 if check_java_17_installed; then
