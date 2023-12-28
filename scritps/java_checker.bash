@@ -17,7 +17,7 @@ check_java_17_installed() {
 }
 #Function to install java 17
 install_java_17() {
-  sudo yum install -y java-17-openjdk
+  sudo dnf install java-17-openjdk
 }
 #check weather java 17 is installed
 if check_java_17_installed; then
