@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+# Use parameters for XServer details
+DISPLAY=${DISPLAY}
+SERVER_USERNAME=${SERVER_USERNAME}
+SERVER_PASSWORD=${SERVER_PASSWORD}
+
 # Check if the script is run with sudo
 if [ "$EUID" -ne 0 ]; then
     echo "This script must be run with sudo."
